@@ -1,0 +1,90 @@
+.confetti-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 10;
+}
+.confetti-piece {
+  position: absolute;
+  width: 10px;
+  height: 20px;
+  background: #ffd300;
+  top: -10%;
+  left: 0;
+  opacity: 0;
+  animation: drop-and-spin 5s linear infinite;
+}
+@keyframes drop-and-spin {
+  0% {
+    transform: translateY(0) rotateZ(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(120vh) rotateZ(1080deg);
+    opacity: 0;
+  }
+}
+.confetti-piece--0 {
+  left: 7%;
+  animation-delay: 1s;
+  background-color: hsl(23, 90%, 60%);
+}
+.confetti-piece--1 {
+  left: 14%;
+  animation-delay: 2s;
+  background-color: hsl(46, 90%, 60%);
+}
+.confetti-piece--2 {
+  left: 21%;
+  animation-delay: 3s;
+  background-color: hsl(69, 90%, 60%);
+}
+.confetti-piece--3 {
+  left: 28%;
+  animation-delay: 4s;
+  background-color: hsl(92, 90%, 60%);
+}
+.confetti-piece--4 {
+  left: 35%;
+  animation-delay: 5s;
+  background-color: hsl(115, 90%, 60%);
+}
+.confetti-piece--5 {
+  left: 42%;
+  animation-delay: 6s;
+  background-color: hsl(138, 90%, 60%);
+}
+.confetti-piece--6 {
+  left: 49%;
+  animation-delay: 7s;
+  background-color: hsl(161, 90%, 60%);
+}
+.confetti-piece--7 {
+  left: 56%;
+  animation-delay: 8s;
+  background-color: hsl(184, 90%, 60%);
+}
+.confetti-piece--8 {
+  left: 63%;
+  animation-delay: 9s;
+  background-color: hsl(207, 90%, 60%);
+}
+.confetti-piece--9 {
+  left: 70%;
+  animation-delay: 10s;
+  background-color: hsl(230, 90%, 60%);
+}
+.confetti-piece--10 {
+  left: 77%;
+  animation-delay: 11s;
+  background-color: hsl(253, 90%, 60%);
+}
+.confetti-piece--11 {
+  left: 84%;
+  animation-delay: 12s;
+  background-color: hsl(276, 90%, 60%);
+}
